@@ -1,0 +1,8 @@
+ng serve - Serves the web portfolio
+ng create <name> - Creates a new project with the first app component ready for use.
+ng generate component <name> --stand-alone - Creates a new component for use.
+ng generate interface <name> - Creates an type interface that can be imported to denote other types.
+
+Ensure to enable routing in the following steps.
+(i) Import provideRouter() from angular/router
+(ii) Add provideRouter to a providers argument in bootstrapApplication, with empty array.
