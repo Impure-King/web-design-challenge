@@ -1,19 +1,28 @@
 .basic-navbar-div {
   height: 50px;
+  /* background-color: rgb(30, 30, 30); */
+  background: linear-gradient(to bottom, rgb(224, 171, 25), rgb(255, 231, 18));
+
 }
 
 .basic-navbar-list {
   display:flex;
   float:left;
-  background-color: rgb(30, 30, 30);
-  width:fit-content;
+  list-style: none;
 }
 
-.list-item {
-  padding: 15px;
-  color: white;
+.navbar-list-item {
+  padding: 10px;
+  color: rgb(61, 61, 61);
+  font-weight: bold;
+  font-size:20px;
 }
 
-.list-item:hover {
-  background-color: rgb(50, 50, 50);
+.navbar-list-item:hover {
+  background-color: rgb(14, 69, 187);
+  transition: 0.7s;
+}
+
+.navbar-list-item-url {
+  text-decoration: none;
 }
