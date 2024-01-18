@@ -1,0 +1,19 @@
+.basic-navbar-div {
+  height: 50px;
+}
+
+.basic-navbar-list {
+  display:flex;
+  float:left;
+  background-color: rgb(30, 30, 30);
+  width:fit-content;
+}
+
+.list-item {
+  padding: 15px;
+  color: white;
+}
+
+.list-item:hover {
+  background-color: rgb(50, 50, 50);
+}
