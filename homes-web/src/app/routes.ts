@@ -6,6 +6,11 @@ const routeConfig: Routes = [
     path: 'home',
     component: HomeComponent,
     title: "Home Page"
+  },
+  {
+    path: '',
+    component: HomeComponent,
+    title: "Home Page"
   }
 
 ];
