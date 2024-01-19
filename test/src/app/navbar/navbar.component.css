@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
 .basic-navbar-div {
+  padding-bottom:5px;
   height: 64px;
-  background: linear-gradient(to bottom, rgba(0, 13, 190, 1), rgba(0, 13, 190, 0.8));
-
+  background-color: #0053a7;
+  border-radius: 0px;
 }
 
 .basic-navbar-list {
@@ -16,20 +15,27 @@
   padding: 10px;
   color: rgb(255, 255, 255);
   font-weight: bold;
-  font-size:20px;
-  font-family: "Open Sans";
+  font-size:15px;
+  font-family: Roboto, sans-serif;
 }
 
 .navbar-list-item:hover {
   background-color: rgb(14, 69, 187);
-  transition: 0.7s;
+  transition: 0.5s;
+  border-radius: 3px;
 }
 
 .navbar-list-item-url {
   text-decoration: none;
 }
 
-/* button {
-  height: 100px;
-  width: 100px;
-} */
+#navbar-logo {
+  height: 55px;
+  padding: 0px;
+}
+
+#navbar-logo:hover {
+  background-color: rgb(14, 69, 187);
+  transition: 0.5s;
+  border-radius: 3px;
+}

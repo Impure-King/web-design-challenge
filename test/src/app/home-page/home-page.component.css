@@ -1,0 +1,10 @@
+/* Aligning content div for nice look */
+#main-content {
+  margin-top: 20px;
+  width: 60%;
+  text-align:center;
+}
+
+#main-content h1 {
+  font-size: 40px;
+}
