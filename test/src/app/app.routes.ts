@@ -11,4 +11,9 @@ export const routes: Routes = [
     component: HomePageComponent,
     title: "Home Page",
   },
+  {
+    path: "#projects",
+    component: HomePageComponent,
+    title: "Projects",
+  },
 ];

@@ -1,13 +1,14 @@
-<div class="basic-navbar-div">
+<div class="basic-navbar-div" id="first-navbar">
   <div class="basic-navbar-internal-div">
     <!--Main list of links.-->
     <ul class="basic-navbar-list">
-      <a class="navbar-list-item-url" href=""><li class="navbar-list-item">Image</li></a>
+      <a class="navbar-list-item-url" routerLink=""><li class="navbar-list-item">Image</li></a>
       @for (listItem of navbarItemsList; track listItem.listName) {
         <!--Probably can transform each list item as a Component that accepts various arguments -->
-        <a class="navbar-list-item-url" [href]="listItem.itemURL"><li class="navbar-list-item">{{listItem.listName}}</li></a>
+        <a class="navbar-list-item-url" [routerLink]="listItem.itemURL"><li class="navbar-list-item">{{listItem.listName}}</li></a>
       }
     </ul>
   </div>
-  <script></script>
 </div>
+
+<button (click)="resize_fn(64, 10)">Click</button>
